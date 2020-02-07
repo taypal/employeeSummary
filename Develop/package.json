@@ -1,15 +1,20 @@
 {
-  "name": "package.json",
+  "name": "Develop",
   "version": "1.0.0",
-  "description": "app",
-  "main": "CLI.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "author": "Taypal",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
     "inquirer": "^7.0.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
